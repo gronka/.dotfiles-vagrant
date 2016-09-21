@@ -1,0 +1,15 @@
+[user]
+	name = Taylor Gronka
+	email = mr.gronka@gmail.com
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout 86400
+[push]
+	default = simple
+[github]
+	user = dhosterman
+[web]
+	browser = open
+[core]
+	excludesfile = ~/.gitignore_global

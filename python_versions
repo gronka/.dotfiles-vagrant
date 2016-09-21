@@ -1,0 +1,2 @@
+$HOME/.pyenv/bin/pyenv install 3.5.2
+$HOME/.pyenv/bin/pyenv install 2.7.12

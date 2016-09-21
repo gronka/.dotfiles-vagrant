@@ -1,0 +1,30 @@
+{
+  "jinja": {
+    "snippets": {
+      "block": "{% block | %}{% endblock %}",
+      "extends": "{% extends \"|.jinja2\" %}",
+      "jf": "{% | %}",
+      "j": "{{ | }}"
+    }
+  },
+
+  "python": {
+    "snippets": {
+      "view": "@view_config(route_name='|', renderer='templates/.jinja2')\ndef function(self):\npass",
+      "viewjson": "@view_config(name='|.json', renderer='json')\ndef function(self):\npass"
+    }
+  },
+
+  "html": {
+    "snippets": {
+      "block": "{% block | %}{% endblock %}",
+      "extends": "{% extends \"|.jinja2\" %}",
+      "include": "{% include \"|.jinja2\" %}",
+      "jf": "{% | %}",
+      "j": "{{ | }}",
+      "\"j": "\"{{ | }}"
+
+    }
+  }
+}
+
